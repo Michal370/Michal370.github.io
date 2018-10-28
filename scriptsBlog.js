@@ -7,7 +7,7 @@ $('#button').on('click', (event) => {
   });
 
   
-$('#button').on('click', (event) => {
+$('#formular').on('click', (event) => {
     $('ul').append(`<li>${$('input').val()}</li>`)
 
 
