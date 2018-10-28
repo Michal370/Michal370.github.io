@@ -7,8 +7,17 @@ $('#button').on('click', (event) => {
   });
 
   
-$('#formular').on('click', (event) => {
-    $('ul').append(`<li>${$('input').val()}</li>`)
+$('#Odesilac').on('click', (event) => {
+    $('body').append("<h3>"+$('#Title').val()+"</h3>")
+    $('body').append("<h2>"+$('#Content').val()+"</h2>")
+
+    let path = "posts/1";
+    let dataToSave = {
+    title: #Title
+    text: #Content
+    };
+    fb.ref(path).set(dataToSave);
+
 
 
 

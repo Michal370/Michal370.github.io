@@ -13,6 +13,24 @@ h2{
     font-size: 30px; 
     }
 
+h3{
+    background: grey;
+    border: 8px solid #ffe91f;
+    height: 60px;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-block-end: 0;
+
+}
+
+h4{
+    
+
+
+}
+
 body{
     background: rgb(165, 165, 165);   
 

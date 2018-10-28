@@ -38,21 +38,21 @@
     </h2>
   </div>
 
+
 <div class="formular">
 
-    <form action="/action_page.php">
+    
       Title:<br>
-      <input type="text" name="Title" value=""><br>
+      <input id="Title" type="text" name="Title" value=""><br>
       Content:<br>
-      <input type="text" name="Content" value=""><br><br>
-      <input type="submit" value="Submit">
+      <input id="Content" type="text" name="Content" value=""><br><br>
+      <input id="Odesilac" type="submit" value="Submit">
     </form>
   
-    <form action="/action_page.php">
-      Posts:<br>
-      <input type="text" name="Posts" value=""><br>
   
+    
     </form>
+
 </div>
   
 </div>
@@ -78,10 +78,20 @@
       authDomain: "my-first-blog-2ffdb.firebaseapp.com",
       databaseURL: "https://my-first-blog-2ffdb.firebaseio.com",
       projectId: "my-first-blog-2ffdb",
-      storageBucket: "",
+      storageBucket: "",  
       messagingSenderId: "862521262437"
     };
     firebase.initializeApp(config);
+    fb = firebase.database();
+    let path = "posts/1";
+    let dataToSave = {
+    title: "My first saved blog post",
+    text: "Some hilarious content, which proves how awesome I am."
+    };
+    fb.ref(path).set(dataToSave);
+
+    
+
   </script>
 
 
