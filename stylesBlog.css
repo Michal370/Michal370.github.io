@@ -1,40 +1,73 @@
 h1{
-    background: rgb(165, 165, 165);
+    background: grey;
     border: 8px solid #ffe91f;
-    height: 60px;
+    height: 80px;
     font-family: fantasy;
     text-align: center;
     font-size: 50px;
-   
-    
-}
+    margin-bottom: 0;    
+    }
+
+h2{
+    color: black;
+    font-size: 30px; 
+    }
 
 body{
-    background: white;   
+    background: rgb(165, 165, 165);   
 
     }    
-
-    p {
-        border: 1px solid powderblue;
-    }
-
-    {
-        box-sizing: border-box;
-    }
     
     .topnav {
         overflow: hidden;
-        background-color: rgb(38, 0, 255);
+        background-color: rgb(165, 165, 165);
+        border: 8px solid #ffe91f;
     }
     
     .topnav a {
         float: left;
         display: block;
-        color: #fbff00;
+        border: 8px solid #ffe91f;
+        color:purple;  
         text-align: center;
-        padding: 14px 16px;
+        padding: 16px;
         text-decoration: none;
         font-family: fantasy;
         border: 8px solid;
- 
+        font-size: 30px;
+    }
+
+    .counterPlace {
+        float: left;
+        display: block;
+        border: 8px solid yellow;
+        color:yellow;  
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-family: fantasy;
+        border: 8px solid;
+        font-size: 30px;
+    }
+        
+    .footer {
+        background-color: rgb(165, 165, 165);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 8px;
+    }
+
+    .formular {
+        float: left;
+        display: block;
+        border: 8px solid yellow;
+        color:yellow;  
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-family: fantasy;
+        border: 8px solid;
+        font-size: 30px;
+
     }
