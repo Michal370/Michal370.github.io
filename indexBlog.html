@@ -1,0 +1,108 @@
+<html>
+
+<head>
+
+    <Title>Vegetable</Title>
+
+
+  <link href="stylesBlog.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <h1>Vegetable</h1>
+  <p><b>Text about vegetable</b></p>
+
+  
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+
+
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDbeGBKfRwJZCarhgUItlgPc4_7cHNVJHk",
+      authDomain: "my-first-blog-2ffdb.firebaseapp.com",
+      databaseURL: "https://my-first-blog-2ffdb.firebaseio.com",
+      projectId: "my-first-blog-2ffdb",
+      storageBucket: "",
+      messagingSenderId: "862521262437"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scriptsBlog.js"></script>
+</body>
+
+</html>
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+</body>
+</html>
